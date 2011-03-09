@@ -2,6 +2,10 @@
 
 Provides a simple logging mechanism for user agents that have JavaScript disabled.
 
+##Requirements
+
+*  PHP (4+, I'm guessing - tested on 5.3)
+
 ##Usage
 
 ###HTML method:
