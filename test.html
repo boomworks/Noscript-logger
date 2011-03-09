@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
   <meta charset="utf-8">
   <title>Noscript logger test</title>
+
+	<script>document.getElementsByTagName('html')[0].className='js';</script>
+
+	<style>
+	.no-js body {
+		background: url(./?domain=css.lindsay.dev);
+	}
+	</style>
+
 </head>
 <body>
 
 	<h1>Noscript logger test</h1>
 
-	<h2>No-noscript</h2>
-	<img src="./?domain=lindsay.dev">
-
-	<h2>Noscript</h2>
+	<h2>&lt;noscript&gt;</h2>
 	<noscript>
-		<img src="./?domain=lindsay.dev">
+		<img src="./?domain=noscript.lindsay.dev">
 	</noscript>
 
 </body>
