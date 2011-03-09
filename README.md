@@ -26,6 +26,7 @@ Easy peasy.
 	</head>
 
 This may be the preferred method, as it doesn't add junk to your beautiful HTML (you'd stick the CSS in an external stylesheet, obviously); and would still work with any evil corporate proxies & whatnot that deny JS requests instead of disabling it in the browser.
+Cons: it may not work in all browsers, I've only tested in Firefox 3.6.
 
 ##Options
 
