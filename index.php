@@ -1,7 +1,16 @@
 <?php
+/**
+* @license
+* Noscript logger
+*
+* Copyright (c) 2011 Boomworks <http://boomworks.com.au/>
+* Author: Lindsay Evans
+* Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
+*/
+
 
 // Type of resonse to send back
-// - 'no response': returns a '204 No Content' response & no body (0B)
+// - 'no response': returns a '204 No Content' header & no body (0B)
 // - 'gif': returns a non-cachable 1x1 transparent GIF (43B)
 $response_type = 'no response';
 
